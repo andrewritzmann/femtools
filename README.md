@@ -6,6 +6,10 @@ This project was created for the purpose of exploring finite element methods for
 The main goal is to develop a library of routines for finite element computation. It should be adaptable
 to many problems (illustrated through the samples directory).
 
+##  Tools/Guidelines
+- Builds will be managed with CMake.
+- Development should avoid platform specific files (e.g., visual studio solution files, makefile, etc...)
+
 ## Contributors
 1. Andrew Ritzmann
 
